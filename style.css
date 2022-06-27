@@ -5,6 +5,7 @@
   .navbar {
     max-height: 120px;
   }
+  /* home button resting color */
   .navigation .navbar-brand {
     color: #ffffff;
     margin-left: 0px;
@@ -17,6 +18,7 @@
     background-color: #1745b8;
     font-size: 25px; 
   }
+  /* drop down background color */
   .active, .dropdown-menu .dropdown-item:active a:hover {
     background-color: white !important;
   }
@@ -26,24 +28,24 @@
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
     background-color: #f04b4c !important;
   }
-  
+  /* drop down shadow color */
   .nav-link:hover {
     background-color:#E7E7E7 !important;
    }
-  
+  /* home button hover color */
   .navbar-brand:hover {
-  color: #f04b4c !important;
+  color: #999595 !important;
   }
-  
+  /* hyperlinks */
   a {
-    color: #E7E7E7;
+    color: #090cec;
     font-size: 15px;
   }
   
   /* Images */
   img{
-    width:50% !important;
-    height:50% !important;
+    width:10% !important;
+    height:10% !important;
   }
   .active, .panel:hover {
     border-color:#1745b8;
@@ -105,7 +107,8 @@
   }
   
   /* Media Queries */
-  @media(max-width: 992px) {
+  /* @media(max-width: 992px) */
+  @media(max-width: 20000px) {
     .navbar-expand-lg {
     background-color: #1745b8 !important;
     }

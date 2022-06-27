@@ -1,0 +1,107 @@
+<!-- Visualization Page 2 (Humidity) -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bootstrap Visualization Dashboard</title>
+</head>
+<body>
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery, Popper.js & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    <!-- Menu -->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="background-color: #070707;" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="brand_statement.html">Brand Statement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Content -->
+        <!-- Create Overall Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!-- Left Content Box -->
+                <div class="box">
+                    <h3 class="title">Brand Statement</h3>
+                    <hr>
+                    <img src="resources\assets_images\Fig2.png" class="vizualization rounded float-left" alt="Humidity Graph">
+                    <p>I am a new data analyst with a background in Biology and skills in Excel, VBA, Python, and SQL with a Certificate in Data Visualization from the University of Georgia Tech’s intensive fast paced 24-week boot camp. I am a detail-oriented professional who has been consistently praised and recognized as hard-working by my co-workers and management, when I won employee of the month in January of 2021. Over the course of my current 3-year position as a Surgical Lead Technician, I’ve developed a skill set directly relevant to the Data Analyst role you are hiring for, including Insatiable intellectual curiosity and ability to break down complex systems and convert them into more simplistic formats. Whether it's explaining medical procedures and terminology to patients or reviewing pre-surgical charts making sure deviation values are low and correcting any errors I should find. While also performing complex calculations to help assist the doctor in choosing the proper lens for patients who would be undergoing cataract surgery.  </p>
+                     <p>From Georgia Tech’s Data Visualization boot camp, I have learned how to mine hidden gems located within large sets of structured, semi-structured, and raw data. I enjoy leveraging my background and skill set to support detailed and efficient analysis. Recently I completed a project in a team of two using data sets from diabetes_012_health_indicators_BRFSS2015.csv and diabetes.xlsx. Using Python and SQL to convert file types, merge data frames together and turn raw data into a usable database. Strengths include strong communication skills, critical thinking, analytical abilities, and the ability to collaborate across diverse groups, makes me a valuable addition to any team.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!-- Right Content Box -->
+                <div class="box">
+                    <div class="box">
+                        <h3 class="title">Visualizations</h3>
+                        <hr>
+                        <div class="container">
+                            <div class="row" style="padding-bottom: 30px;">
+                                <div class="col-6">
+                                    <a href="temp.html">
+                                      <img class="panel" src="resources\assets_images\Fig1.png" alt="Max Temperature Graph">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="humidity.html">
+                                        <img class="panel" src="resources\assets_images\Fig2.png" alt="Humidity Graph">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row" style="padding-bottom: 30px;">
+                                <div class="col-6">
+                                    <a href="cloudiness.html">
+                                        <img class="panel" src="resources\assets_images\Fig3.png" alt="Cloudiness Graph">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="wind_speed.html">
+                                        <img class="panel" src="resources\assets_images\Fig4.png" alt="Wind Speed Graph">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    <!-- Footer -->
+    <footer>
+        <div class="footer">Matthew Ward 2022.</div>
+    </footer>
+</body>
+</html>
